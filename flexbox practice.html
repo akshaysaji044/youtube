@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+           font-family: Arial; 
+        }
+        .layout{
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 6px;
+            border-color: rgb(200, 200, 200);
+            width: 300px;
+        }
+
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            align-items: centre;
+            padding-left: 12px;
+            padding-right: 12px;
+            
+        }
+
+        .notification{
+           background-color: rgb(76, 76, 231);
+           color: white;
+           padding-top: 3px;
+           padding-bottom: 3px;
+           padding-left: 10px;
+           padding-right: 10px;
+           border-radius: 20px;
+           font-weight: bold;
+           font-size: 12px;
+
+        }
+      
+
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="flex">
+          <div>Home</div>
+          <div class="notification"> 14</div>
+        </div>
+        <div class="flex">
+            <div>Notification</div>
+           <div class="notification">3</div>
+        </div>
+        <div class="flex">
+            <div>Messages</div>
+           <div class="notification">5</div>
+        </div>
+    </div>
+</body>
+</html>
